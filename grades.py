@@ -5,17 +5,17 @@ def student():
   
   if(per>=90):
   
-   print ( " A garde")
+   print ( " A grade")
    
-  elif(per>=80 and per<=90):
+  elif(per>=80 and per<90):
     
-    print( " B garde")
+    print( " B grade")
     
-  elif(per>=70 and per<=80):
+  elif(per>=70 and per<80):
    
     print(" C grade")
     
-  elif(per>=60 and per<=70):
+  elif(per>=60 and per<70):
   
      print ( " D grade")
      
