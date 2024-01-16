@@ -1,9 +1,9 @@
-def student():
-  total=float(input("enter the total:"))
+def student(): #defining function
+  total=float(input("enter the total:")) #taking the input from the user
   per= float((total/500)*100)
   print(per)
   
-  if(per>=90):
+  if(per>=90): #check condition for displaying the grades
   
    print ( " A grade")
    
